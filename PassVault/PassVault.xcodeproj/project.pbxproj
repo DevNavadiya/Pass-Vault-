@@ -1,0 +1,659 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68018B102B9EE639006181B4 /* PassVault.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 68018B0F2B9EE639006181B4 /* PassVault.mp3 */; };
+		685346192B9DAD9700F995F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685346182B9DAD9700F995F6 /* AppDelegate.swift */; };
+		6853461B2B9DAD9700F995F6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6853461A2B9DAD9700F995F6 /* SceneDelegate.swift */; };
+		6853461D2B9DAD9700F995F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6853461C2B9DAD9700F995F6 /* ViewController.swift */; };
+		685346202B9DAD9700F995F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6853461E2B9DAD9700F995F6 /* Main.storyboard */; };
+		685346232B9DAD9700F995F6 /* PassVault.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 685346212B9DAD9700F995F6 /* PassVault.xcdatamodeld */; };
+		685346252B9DAD9A00F995F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 685346242B9DAD9A00F995F6 /* Assets.xcassets */; };
+		685346282B9DAD9A00F995F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 685346262B9DAD9A00F995F6 /* LaunchScreen.storyboard */; };
+		685346332B9DAD9A00F995F6 /* PassVaultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685346322B9DAD9A00F995F6 /* PassVaultTests.swift */; };
+		6853463D2B9DAD9A00F995F6 /* PassVaultUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6853463C2B9DAD9A00F995F6 /* PassVaultUITests.swift */; };
+		6853463F2B9DAD9A00F995F6 /* PassVaultUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6853463E2B9DAD9A00F995F6 /* PassVaultUITestsLaunchTests.swift */; };
+		6853464C2B9DB19200F995F6 /* Extionsion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6853464B2B9DB19200F995F6 /* Extionsion.swift */; };
+		6853464E2B9DC31300F995F6 /* passGenraterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6853464D2B9DC31300F995F6 /* passGenraterViewController.swift */; };
+		685346502B9DC34200F995F6 /* savePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6853464F2B9DC34200F995F6 /* savePasswordViewController.swift */; };
+		685346522B9DC36100F995F6 /* aboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685346512B9DC36100F995F6 /* aboutUsViewController.swift */; };
+		685346542B9DC3A400F995F6 /* savePasswordTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685346532B9DC3A400F995F6 /* savePasswordTableViewCell.swift */; };
+		686DCE8F2B9DE1CF00CB8EA8 /* presentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686DCE8E2B9DE1CF00CB8EA8 /* presentViewController.swift */; };
+		686DCE912B9E199C00CB8EA8 /* passwordmanager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686DCE902B9E199C00CB8EA8 /* passwordmanager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6853462F2B9DAD9A00F995F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6853460D2B9DAD9700F995F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 685346142B9DAD9700F995F6;
+			remoteInfo = PassVault;
+		};
+		685346392B9DAD9A00F995F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6853460D2B9DAD9700F995F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 685346142B9DAD9700F995F6;
+			remoteInfo = PassVault;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		68018B0F2B9EE639006181B4 /* PassVault.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PassVault.mp3; sourceTree = "<group>"; };
+		685346152B9DAD9700F995F6 /* PassVault.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PassVault.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		685346182B9DAD9700F995F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6853461A2B9DAD9700F995F6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6853461C2B9DAD9700F995F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6853461F2B9DAD9700F995F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		685346222B9DAD9700F995F6 /* PassVault.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PassVault.xcdatamodel; sourceTree = "<group>"; };
+		685346242B9DAD9A00F995F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		685346272B9DAD9A00F995F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		685346292B9DAD9A00F995F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6853462E2B9DAD9A00F995F6 /* PassVaultTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PassVaultTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		685346322B9DAD9A00F995F6 /* PassVaultTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassVaultTests.swift; sourceTree = "<group>"; };
+		685346382B9DAD9A00F995F6 /* PassVaultUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PassVaultUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6853463C2B9DAD9A00F995F6 /* PassVaultUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassVaultUITests.swift; sourceTree = "<group>"; };
+		6853463E2B9DAD9A00F995F6 /* PassVaultUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassVaultUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6853464B2B9DB19200F995F6 /* Extionsion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extionsion.swift; sourceTree = "<group>"; };
+		6853464D2B9DC31300F995F6 /* passGenraterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = passGenraterViewController.swift; sourceTree = "<group>"; };
+		6853464F2B9DC34200F995F6 /* savePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = savePasswordViewController.swift; sourceTree = "<group>"; };
+		685346512B9DC36100F995F6 /* aboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aboutUsViewController.swift; sourceTree = "<group>"; };
+		685346532B9DC3A400F995F6 /* savePasswordTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = savePasswordTableViewCell.swift; sourceTree = "<group>"; };
+		686DCE8E2B9DE1CF00CB8EA8 /* presentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = presentViewController.swift; sourceTree = "<group>"; };
+		686DCE902B9E199C00CB8EA8 /* passwordmanager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = passwordmanager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		685346122B9DAD9700F995F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6853462B2B9DAD9A00F995F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		685346352B9DAD9A00F995F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6853460C2B9DAD9700F995F6 = {
+			isa = PBXGroup;
+			children = (
+				685346172B9DAD9700F995F6 /* PassVault */,
+				685346312B9DAD9A00F995F6 /* PassVaultTests */,
+				6853463B2B9DAD9A00F995F6 /* PassVaultUITests */,
+				685346162B9DAD9700F995F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		685346162B9DAD9700F995F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				685346152B9DAD9700F995F6 /* PassVault.app */,
+				6853462E2B9DAD9A00F995F6 /* PassVaultTests.xctest */,
+				685346382B9DAD9A00F995F6 /* PassVaultUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		685346172B9DAD9700F995F6 /* PassVault */ = {
+			isa = PBXGroup;
+			children = (
+				685346182B9DAD9700F995F6 /* AppDelegate.swift */,
+				6853461A2B9DAD9700F995F6 /* SceneDelegate.swift */,
+				6853464B2B9DB19200F995F6 /* Extionsion.swift */,
+				6853461C2B9DAD9700F995F6 /* ViewController.swift */,
+				6853464D2B9DC31300F995F6 /* passGenraterViewController.swift */,
+				686DCE8E2B9DE1CF00CB8EA8 /* presentViewController.swift */,
+				6853464F2B9DC34200F995F6 /* savePasswordViewController.swift */,
+				685346532B9DC3A400F995F6 /* savePasswordTableViewCell.swift */,
+				685346512B9DC36100F995F6 /* aboutUsViewController.swift */,
+				6853461E2B9DAD9700F995F6 /* Main.storyboard */,
+				686DCE902B9E199C00CB8EA8 /* passwordmanager.swift */,
+				685346242B9DAD9A00F995F6 /* Assets.xcassets */,
+				68018B0F2B9EE639006181B4 /* PassVault.mp3 */,
+				685346262B9DAD9A00F995F6 /* LaunchScreen.storyboard */,
+				685346292B9DAD9A00F995F6 /* Info.plist */,
+				685346212B9DAD9700F995F6 /* PassVault.xcdatamodeld */,
+			);
+			path = PassVault;
+			sourceTree = "<group>";
+		};
+		685346312B9DAD9A00F995F6 /* PassVaultTests */ = {
+			isa = PBXGroup;
+			children = (
+				685346322B9DAD9A00F995F6 /* PassVaultTests.swift */,
+			);
+			path = PassVaultTests;
+			sourceTree = "<group>";
+		};
+		6853463B2B9DAD9A00F995F6 /* PassVaultUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6853463C2B9DAD9A00F995F6 /* PassVaultUITests.swift */,
+				6853463E2B9DAD9A00F995F6 /* PassVaultUITestsLaunchTests.swift */,
+			);
+			path = PassVaultUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		685346142B9DAD9700F995F6 /* PassVault */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 685346422B9DAD9A00F995F6 /* Build configuration list for PBXNativeTarget "PassVault" */;
+			buildPhases = (
+				685346112B9DAD9700F995F6 /* Sources */,
+				685346122B9DAD9700F995F6 /* Frameworks */,
+				685346132B9DAD9700F995F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PassVault;
+			productName = PassVault;
+			productReference = 685346152B9DAD9700F995F6 /* PassVault.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6853462D2B9DAD9A00F995F6 /* PassVaultTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 685346452B9DAD9A00F995F6 /* Build configuration list for PBXNativeTarget "PassVaultTests" */;
+			buildPhases = (
+				6853462A2B9DAD9A00F995F6 /* Sources */,
+				6853462B2B9DAD9A00F995F6 /* Frameworks */,
+				6853462C2B9DAD9A00F995F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				685346302B9DAD9A00F995F6 /* PBXTargetDependency */,
+			);
+			name = PassVaultTests;
+			productName = PassVaultTests;
+			productReference = 6853462E2B9DAD9A00F995F6 /* PassVaultTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		685346372B9DAD9A00F995F6 /* PassVaultUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 685346482B9DAD9A00F995F6 /* Build configuration list for PBXNativeTarget "PassVaultUITests" */;
+			buildPhases = (
+				685346342B9DAD9A00F995F6 /* Sources */,
+				685346352B9DAD9A00F995F6 /* Frameworks */,
+				685346362B9DAD9A00F995F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6853463A2B9DAD9A00F995F6 /* PBXTargetDependency */,
+			);
+			name = PassVaultUITests;
+			productName = PassVaultUITests;
+			productReference = 685346382B9DAD9A00F995F6 /* PassVaultUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6853460D2B9DAD9700F995F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					685346142B9DAD9700F995F6 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					6853462D2B9DAD9A00F995F6 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 685346142B9DAD9700F995F6;
+					};
+					685346372B9DAD9A00F995F6 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 685346142B9DAD9700F995F6;
+					};
+				};
+			};
+			buildConfigurationList = 685346102B9DAD9700F995F6 /* Build configuration list for PBXProject "PassVault" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6853460C2B9DAD9700F995F6;
+			productRefGroup = 685346162B9DAD9700F995F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				685346142B9DAD9700F995F6 /* PassVault */,
+				6853462D2B9DAD9A00F995F6 /* PassVaultTests */,
+				685346372B9DAD9A00F995F6 /* PassVaultUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		685346132B9DAD9700F995F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				685346282B9DAD9A00F995F6 /* LaunchScreen.storyboard in Resources */,
+				685346252B9DAD9A00F995F6 /* Assets.xcassets in Resources */,
+				68018B102B9EE639006181B4 /* PassVault.mp3 in Resources */,
+				685346202B9DAD9700F995F6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6853462C2B9DAD9A00F995F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		685346362B9DAD9A00F995F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		685346112B9DAD9700F995F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				685346522B9DC36100F995F6 /* aboutUsViewController.swift in Sources */,
+				685346502B9DC34200F995F6 /* savePasswordViewController.swift in Sources */,
+				6853461D2B9DAD9700F995F6 /* ViewController.swift in Sources */,
+				685346232B9DAD9700F995F6 /* PassVault.xcdatamodeld in Sources */,
+				686DCE8F2B9DE1CF00CB8EA8 /* presentViewController.swift in Sources */,
+				685346542B9DC3A400F995F6 /* savePasswordTableViewCell.swift in Sources */,
+				6853464E2B9DC31300F995F6 /* passGenraterViewController.swift in Sources */,
+				685346192B9DAD9700F995F6 /* AppDelegate.swift in Sources */,
+				6853461B2B9DAD9700F995F6 /* SceneDelegate.swift in Sources */,
+				686DCE912B9E199C00CB8EA8 /* passwordmanager.swift in Sources */,
+				6853464C2B9DB19200F995F6 /* Extionsion.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6853462A2B9DAD9A00F995F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				685346332B9DAD9A00F995F6 /* PassVaultTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		685346342B9DAD9A00F995F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6853463F2B9DAD9A00F995F6 /* PassVaultUITestsLaunchTests.swift in Sources */,
+				6853463D2B9DAD9A00F995F6 /* PassVaultUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		685346302B9DAD9A00F995F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 685346142B9DAD9700F995F6 /* PassVault */;
+			targetProxy = 6853462F2B9DAD9A00F995F6 /* PBXContainerItemProxy */;
+		};
+		6853463A2B9DAD9A00F995F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 685346142B9DAD9700F995F6 /* PassVault */;
+			targetProxy = 685346392B9DAD9A00F995F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6853461E2B9DAD9700F995F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6853461F2B9DAD9700F995F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		685346262B9DAD9A00F995F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				685346272B9DAD9A00F995F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		685346402B9DAD9A00F995F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		685346412B9DAD9A00F995F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		685346432B9DAD9A00F995F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PassVault/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PassVault;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dev.PassVault;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		685346442B9DAD9A00F995F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PassVault/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PassVault;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dev.PassVault;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		685346462B9DAD9A00F995F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dev.PassVaultTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PassVault.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PassVault";
+			};
+			name = Debug;
+		};
+		685346472B9DAD9A00F995F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dev.PassVaultTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PassVault.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PassVault";
+			};
+			name = Release;
+		};
+		685346492B9DAD9A00F995F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dev.PassVaultUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PassVault;
+			};
+			name = Debug;
+		};
+		6853464A2B9DAD9A00F995F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dev.PassVaultUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PassVault;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		685346102B9DAD9700F995F6 /* Build configuration list for PBXProject "PassVault" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				685346402B9DAD9A00F995F6 /* Debug */,
+				685346412B9DAD9A00F995F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		685346422B9DAD9A00F995F6 /* Build configuration list for PBXNativeTarget "PassVault" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				685346432B9DAD9A00F995F6 /* Debug */,
+				685346442B9DAD9A00F995F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		685346452B9DAD9A00F995F6 /* Build configuration list for PBXNativeTarget "PassVaultTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				685346462B9DAD9A00F995F6 /* Debug */,
+				685346472B9DAD9A00F995F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		685346482B9DAD9A00F995F6 /* Build configuration list for PBXNativeTarget "PassVaultUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				685346492B9DAD9A00F995F6 /* Debug */,
+				6853464A2B9DAD9A00F995F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		685346212B9DAD9700F995F6 /* PassVault.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				685346222B9DAD9700F995F6 /* PassVault.xcdatamodel */,
+			);
+			currentVersion = 685346222B9DAD9700F995F6 /* PassVault.xcdatamodel */;
+			path = PassVault.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6853460D2B9DAD9700F995F6 /* Project object */;
+}
